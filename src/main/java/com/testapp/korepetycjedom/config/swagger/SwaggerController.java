@@ -1,4 +1,4 @@
-package com.testapp.korepetycjedom.swagger;
+package com.testapp.korepetycjedom.config.swagger;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

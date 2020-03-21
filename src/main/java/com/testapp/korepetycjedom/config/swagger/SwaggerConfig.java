@@ -1,4 +1,4 @@
-package com.testapp.korepetycjedom.swagger;
+package com.testapp.korepetycjedom.config.swagger;
 
 import io.swagger.annotations.Api;
 import org.springframework.context.annotation.Bean;

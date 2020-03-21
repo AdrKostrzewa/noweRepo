@@ -22,11 +22,3 @@ public class Book {
     private String title;
     private String isbn;
 }
-
-//public class User {
-//    private String password;
-//}
-
-// BookEntity - on zapisywany do abzy danych
-// BookResponseDTO - on bedzie zwracany z controllera
-// BookDataDTO - bedzie wysylany do kontrolera
