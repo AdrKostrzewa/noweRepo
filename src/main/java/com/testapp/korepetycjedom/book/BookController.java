@@ -31,8 +31,9 @@ public class BookController {
     }
 
     @PostMapping
-    public Book addBook(@RequestBody Book book) {
-        return bookService.addBook(book);
+    public BookResponseDTO addBook(@RequestBody Book book) {
+//        return bookService.addBook(book);
+        return bookConverter.convertToBookDTO(bookService.addBook(book));
     }
 
     @DeleteMapping(value = "/{id}")
